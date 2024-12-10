@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brayan Jara - Portafolio</title>
+    
+    <!--ICONS DE REMIXICON-->
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+        />
+        <!--ENLACE A CSS-->    
+        <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+
+        <!--TIPOGRAFÍAS-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="header__profile">
+
+            <div class="header__img">
+                <img src="assets/img/perfil.png" alt="" class="header__img--img">
+            </div>
+
+            <div class="header__info">
+
+                <div class="header__info--name">
+                    <h3>Brayan Jara</h3>
+                    <p>Ilustrador y diseñador</p>
+                </div>
+
+                <ul class="header__info--social">
+                    <li>
+                        <a href="https://wa.me/+56935596710" target="_blank">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="ri-mail-line" target="_blank"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/gatosalsa2/" target="_blank">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/Brayan-wq367" target="_blank">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="header__cv">
+                    <a href="assets/docs/CV.pdf" download="CV Brayan Jara" class="button header__cv--cv"
+                    >
+                        Descargar CV
+                        <i class="ri-download-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__title"> 
+            <h1>Portafolio de Diseño</h1>
+            <h2>Trabajos Visuales y diseño web</h2>
+        </div>
+    </header>
+
+    <main class="main">
+        <input type="radio" name="categoria" id="todos" value="todos" checked>
+        <input type="radio" name="categoria" id="diseno-ui" value="diseno-ui">
+        <input type="radio" name="categoria" id="maquetado-web" value="maquetado-web">
+        <input type="radio" name="categoria" id="frontend" value="frontend">
+        <input type="radio" name="categoria" id="motion" value="motion">
+        
+        <div class="portfolio-filters">
+            <label for="todos">Todos</label>
+            <label for="diseno-ui">Diseño UI</label>
+            <label for="maquetado-web">Maquetado Web</label> 
+            <label for="frontend">frontend</label>
+            <label for="motion">Diseños Creativos</label>
+        </div>
+
+        <div class="portfolio">
+
+            <div data-category="diseno-ui" class="portfolio__card">
+
+                <div class="portfolio__featured">
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Adobe Illustrator</a>
+                    </div>
+
+                    <img src="assets/img/Portada.PNG" alt="featured" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Revista forestal</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#Illustrator</span>
+                        <span>#Diseño</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/01-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div data-category="maquetado-web" class="portfolio__card">
+                <div class="portfolio__featured">
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Photoshop</a>
+                    </div>
+
+                    <img src="assets/img/despues.jpg" alt="featured" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Retoque de Fotografías</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#PS</span>
+                        <span>#Fotografía</span>
+                        <span>#Camera raw</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/02-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div data-category="frontend" class="portfolio__card">
+                <div class="portfolio__featured">
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Clip studio</a>
+                    </div>
+
+                    <img src="assets/img/pj1.png" alt="featured" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Concept art</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#Clip studio</span>
+                        <span>#Ilustración digital</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/03-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div data-category="motion" class="portfolio__card">
+                <div class="portfolio__featured">
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Clip studio</a>
+                    </div>
+
+                    <img src="assets/img/Vegeta.png" alt="featured" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Ilustración tipo Manga</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#Clip studio</span>
+                        <span>#Ilustración digital</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/04-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div data-category="diseno-ui motion" class="portfolio__card">
+
+                <div class="portfolio__featured">
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Pixelorama</a>
+                    </div>
+
+                    <img src="assets/img/miniatura.png" alt="featured" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Ilustración pixel art</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#Pixel art</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/05-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div data-category="maquetado-web frontend" class="portfolio__card">
+                <div class="portfolio__featured">
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Maquetado web</a>
+                        <a href="#" class="portfolio__category">Frontend</a>
+                    </div>
+
+                    <img src="assets/img/1.PNG" alt="featured" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Tarjeta responsiva</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#Diseño UI</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/06-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div data-category="frontend" class="portfolio__card">
+                <div class="portfolio__featured">
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Frontend</a>
+                    </div>
+
+                    <img src="assets/img/Miniatura-01.png" alt="featured" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Titular del Proyecto</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#Diseño UI</span>
+                        <span>#Web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/07-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copy">
+            &copy; Todos los Derechos Reservados - <b>Brayan Jara 2025</b>
+        </p>
+    </footer>
+</body>
+</html>
